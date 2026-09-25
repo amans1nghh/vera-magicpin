@@ -31,7 +31,7 @@ last_keep_alive = time.time()
 
 @app.get("/")
 async def root():
-    return {"message": "Vera Merchant AI Assistant v11 by Chaitanya Kalra", "docs": "/docs"}
+    return {"message": "Vera Merchant AI Assistant v11 by Aman Deep", "docs": "/docs"}
 
 @app.get("/keep-alive")
 async def keep_alive():
@@ -1787,11 +1787,11 @@ async def healthz():
 @app.get("/v1/metadata")
 async def metadata():
     return {
-        "team_name": "Chaitanya Kalra",
-        "team_members": ["Chaitanya Kalra"],
+        "team_name": "Aman Deep",
+        "team_members": ["Aman Deep"],
         "model": "via OpenRouter, Groq , OpenAI & MistralAi",
         "approach": "rules-first deterministic planner + category-voice injection + grounded fallbacks + intent state machine",
-        "contact_email": "chaitanyakalra7@gmail.com",
+        "contact_email": "amandeeprxl9@gmail.com",
         "version": "11.0.1",
         "submitted_at": datetime.now(timezone.utc).isoformat()
     }
